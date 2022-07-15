@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="both">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="samplemavenprojecr11.ILu"/>
+      <class name="samplemavenprojecr11.Byyyyy"/>
+      <class name="samplemavenprojecr.HiiiiiDeep"/>
+      <class name="samplemavenprojecr.Youuu"/>
+      <class name="samplemavenprojecr.ILu"/>
+      <class name="samplemavenprojecr11.Youuu"/>
+      <class name="samplemavenprojecr.Byyyyy"/>
+      <class name="samplemavenprojecr11.HiiiiiDeep"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- both -->

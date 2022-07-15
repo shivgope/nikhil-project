@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-both" class="navigator-link">
+              <span class="suite-name border-passed">both</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-both" class="navigator-link ">
+                    <span>D:\Java\samplemavenprojecr\both.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-both" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-both" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-both" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-both" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-both" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-both" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-both" class="hide-methods passed suite-both"> (hide)</a> <!-- hide-methods passed suite-both -->
+                      <a href="#" panel-name="suite-both" class="show-methods passed suite-both"> (show)</a> <!-- show-methods passed suite-both -->
+                    </span>
+                    <div class="method-list-content passed suite-both">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.HiiiiiDeep" class="method navigator-link" hash-for-method="have">have</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.HiiiiiDeep" class="method navigator-link" hash-for-method="have">have</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.Youuu" class="method navigator-link" hash-for-method="have11">have11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.Youuu" class="method navigator-link" hash-for-method="have11">have11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.Byyyyy" class="method navigator-link" hash-for-method="haveyou">haveyou</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.Byyyyy" class="method navigator-link" hash-for-method="haveyou">haveyou</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.HiiiiiDeep" class="method navigator-link" hash-for-method="hellodee">hellodee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.HiiiiiDeep" class="method navigator-link" hash-for-method="hellodee">hellodee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.Youuu" class="method navigator-link" hash-for-method="hellodee11">hellodee11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.Youuu" class="method navigator-link" hash-for-method="hellodee11">hellodee11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.Byyyyy" class="method navigator-link" hash-for-method="hellodeepa">hellodeepa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.Byyyyy" class="method navigator-link" hash-for-method="hellodeepa">hellodeepa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.ILu" class="method navigator-link" hash-for-method="iHu">iHu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.ILu" class="method navigator-link" hash-for-method="iHu">iHu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr.ILu" class="method navigator-link" hash-for-method="iluu">iluu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-both" title="samplemavenprojecr11.ILu" class="method navigator-link" hash-for-method="iluu">iluu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-both -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-both" class="panel both">
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr.ILu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iHu">
+                  </a> <!-- iHu -->
+                  <span class="method-name">iHu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iluu">
+                  </a> <!-- iluu -->
+                  <span class="method-name">iluu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr11.HiiiiiDeep</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="have">
+                  </a> <!-- have -->
+                  <span class="method-name">have</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodee">
+                  </a> <!-- hellodee -->
+                  <span class="method-name">hellodee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr11.Byyyyy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="haveyou">
+                  </a> <!-- haveyou -->
+                  <span class="method-name">haveyou</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodeepa">
+                  </a> <!-- hellodeepa -->
+                  <span class="method-name">hellodeepa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr.HiiiiiDeep</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="have">
+                  </a> <!-- have -->
+                  <span class="method-name">have</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodee">
+                  </a> <!-- hellodee -->
+                  <span class="method-name">hellodee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr.Youuu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="have11">
+                  </a> <!-- have11 -->
+                  <span class="method-name">have11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodee11">
+                  </a> <!-- hellodee11 -->
+                  <span class="method-name">hellodee11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr.Byyyyy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="haveyou">
+                  </a> <!-- haveyou -->
+                  <span class="method-name">haveyou</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodeepa">
+                  </a> <!-- hellodeepa -->
+                  <span class="method-name">hellodeepa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr11.ILu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iHu">
+                  </a> <!-- iHu -->
+                  <span class="method-name">iHu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iluu">
+                  </a> <!-- iluu -->
+                  <span class="method-name">iluu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+          <div class="suite-both-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">samplemavenprojecr11.Youuu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="have11">
+                  </a> <!-- have11 -->
+                  <span class="method-name">have11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hellodee11">
+                  </a> <!-- hellodee11 -->
+                  <span class="method-name">hellodee11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-both-class-passed -->
+        </div> <!-- panel both -->
+        <div panel-name="test-xml-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Java\samplemavenprojecr\both.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;both&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;samplemavenprojecr11.ILu&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr11.Byyyyy&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr.HiiiiiDeep&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr.Youuu&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr.ILu&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr11.Youuu&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr.Byyyyy&quot;/&gt;
+      &lt;class name=&quot;samplemavenprojecr11.HiiiiiDeep&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- both --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for both</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for both</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">have</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">have11</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">haveyou</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">hellodee</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">hellodee11</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">hellodeepa</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for both</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_both');
+function tableData_both() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'iHu')
+data.setCell(0, 2, 'samplemavenprojecr11.ILu')
+data.setCell(0, 3, 12);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'hellodee')
+data.setCell(1, 2, 'samplemavenprojecr.HiiiiiDeep')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'have')
+data.setCell(2, 2, 'samplemavenprojecr.HiiiiiDeep')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'hellodee11')
+data.setCell(3, 2, 'samplemavenprojecr.Youuu')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'iluu')
+data.setCell(4, 2, 'samplemavenprojecr11.ILu')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'haveyou')
+data.setCell(5, 2, 'samplemavenprojecr11.Byyyyy')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'hellodeepa')
+data.setCell(6, 2, 'samplemavenprojecr.Byyyyy')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'haveyou')
+data.setCell(7, 2, 'samplemavenprojecr.Byyyyy')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'hellodeepa')
+data.setCell(8, 2, 'samplemavenprojecr11.Byyyyy')
+data.setCell(8, 3, 3);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'hellodee')
+data.setCell(9, 2, 'samplemavenprojecr11.HiiiiiDeep')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'have11')
+data.setCell(10, 2, 'samplemavenprojecr.Youuu')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'iHu')
+data.setCell(11, 2, 'samplemavenprojecr.ILu')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'have11')
+data.setCell(12, 2, 'samplemavenprojecr11.Youuu')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'have')
+data.setCell(13, 2, 'samplemavenprojecr11.HiiiiiDeep')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'iluu')
+data.setCell(14, 2, 'samplemavenprojecr.ILu')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'hellodee11')
+data.setCell(15, 2, 'samplemavenprojecr11.Youuu')
+data.setCell(15, 3, 1);
+window.suiteTableData['both']= { tableData: data, tableDiv: 'times-div-both'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 ms</span>
+              <div id="times-div-both">
+              </div> <!-- times-div-both -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for both</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-both" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr11.ILu</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">iHu</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iluu</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr11.Byyyyy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">haveyou</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodeepa</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr.HiiiiiDeep</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">have</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodee</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr.Youuu</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">have11</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodee11</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr.ILu</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">iHu</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iluu</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr11.Youuu</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">have11</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodee11</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr.Byyyyy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">haveyou</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodeepa</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">samplemavenprojecr11.HiiiiiDeep</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">have</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hellodee</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
