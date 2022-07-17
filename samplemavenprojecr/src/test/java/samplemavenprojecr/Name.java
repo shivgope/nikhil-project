@@ -7,6 +7,7 @@ public class Name {
 	public void name()
 	{
 		System.out.println("nikil");
+		System.out.println("shiv");
 	}
 
 }
