@@ -8,6 +8,7 @@ public class Name {
 	{
 		System.out.println("nikil");
 		System.out.println("shiv");
+		System.out.println("suv");
 	}
 
 }
